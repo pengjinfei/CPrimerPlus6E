@@ -242,6 +242,43 @@ add_executable(ch06_power ${ch06_power})]]
 #-----------------------------
 #           ch07
 #-----------------------------
+#[[
+set(ch07_colddays Ch07/colddays.c)
+add_executable(ch07_colddays ${ch07_colddays})
 
-set(ch06_scores_in Ch06/scores_in.c)
-add_executable(ch06_scores_in ${ch06_scores_in})
+set(ch07_cypher1 Ch07/cypher1.c)
+add_executable(ch07_cypher1 ${ch07_cypher1})
+
+set(ch07_cypher2 Ch07/cypher2.c)
+add_executable(ch07_cypher2 ${ch07_cypher2})
+
+set(ch07_electric Ch07/electric.c)
+add_executable(ch07_electric ${ch07_electric})
+
+set(ch07_divisors Ch07/divisors.c)
+add_executable(ch07_divisors ${ch07_divisors})
+
+set(ch07_chcount Ch07/chcount.c)
+add_executable(ch07_chcount ${ch07_chcount})
+
+set(ch07_wordcnt Ch07/wordcnt.c)
+add_executable(ch07_wordcnt ${ch07_wordcnt})
+
+set(ch07_paint Ch07/paint.c)
+add_executable(ch07_paint ${ch07_paint})
+
+set(ch07_skippart Ch07/skippart.c)
+add_executable(ch07_skippart ${ch07_skippart})
+
+set(ch07_break Ch07/break.c)
+add_executable(ch07_break ${ch07_break})
+
+set(ch07_animals Ch07/animals.c)
+add_executable(ch07_animals ${ch07_animals})
+
+set(ch07_vowels Ch07/vowels.c)
+add_executable(ch07_vowels ${ch07_vowels})]]
+
+#-----------------------------
+#           ch008
+#-----------------------------
