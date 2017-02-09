@@ -282,3 +282,58 @@ add_executable(ch07_vowels ${ch07_vowels})]]
 #-----------------------------
 #           ch008
 #-----------------------------
+
+#[[set(ch08_echo_eof Ch08/echo_eof.c)
+add_executable(ch08_echo_eof ${ch08_echo_eof})
+
+set(ch08_file_eof Ch08/file_eof.c)
+add_executable(ch08_file_eof ${ch08_file_eof})
+
+set(ch08_guess Ch08/guess.c)
+add_executable(ch08_guess ${ch08_guess})
+
+set(ch08_showchar1 Ch08/showchar1.c)
+add_executable(ch08_showchar1 ${ch08_showchar1})
+
+set(ch08_showchar2 Ch08/showchar2.c)
+add_executable(ch08_showchar2 ${ch08_showchar2})
+
+set(ch08_checking Ch08/checking.c)
+add_executable(ch08_checking ${ch08_checking})
+
+set(ch08_menuette Ch08/menuette.c)
+add_executable(ch08_menuette ${ch08_menuette})]]
+
+#-----------------------------
+#           ch009
+#-----------------------------
+
+set(ch09_lethead1 Ch09/lethead1.c)
+add_executable(ch09_lethead1 ${ch09_lethead1})
+
+set(ch09_lethead2 Ch09/lethead2.c)
+add_executable(ch09_lethead2 ${ch09_lethead2})
+
+set(ch09_lesser Ch09/lesser.c)
+add_executable(ch09_lesser ${ch09_lesser})
+
+set(ch09_misuse Ch09/misuse.c)
+add_executable(ch09_misuse ${ch09_misuse})
+
+set(ch09_proto Ch09/proto.c)
+add_executable(ch09_proto ${ch09_proto})
+
+set(ch09_recur Ch09/recur.c)
+add_executable(ch09_recur ${ch09_recur})
+
+set(ch09_factor Ch09/factor.c)
+add_executable(ch09_factor ${ch09_factor})
+
+set(ch09_binary Ch09/binary.c)
+add_executable(ch09_binary ${ch09_binary})
+
+set(ch09_usehotel Ch09/usehotel.c Ch09/hotel.c)
+add_executable(ch09_usehotel ${ch09_usehotel} )
+
+set(ch09_loccheck Ch09/loccheck.c)
+add_executable(ch09_loccheck ${ch09_loccheck})
