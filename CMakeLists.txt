@@ -307,7 +307,7 @@ add_executable(ch08_menuette ${ch08_menuette})]]
 #-----------------------------
 #           ch009
 #-----------------------------
-
+#[[
 set(ch09_lethead1 Ch09/lethead1.c)
 add_executable(ch09_lethead1 ${ch09_lethead1})
 
@@ -337,3 +337,213 @@ add_executable(ch09_usehotel ${ch09_usehotel} )
 
 set(ch09_loccheck Ch09/loccheck.c)
 add_executable(ch09_loccheck ${ch09_loccheck})
+
+set(ch09_swap1 Ch09/swap1.c)
+add_executable(ch09_swap1 ${ch09_swap1})
+
+set(ch09_swap2 Ch09/swap2.c)
+add_executable(ch09_swap2 ${ch09_swap2})
+
+set(ch09_swap3 Ch09/swap3.c)
+add_executable(ch09_swap3 ${ch09_swap3})]]
+
+#-----------------------------
+#           ch010
+#-----------------------------
+#[[set(ch10_day_mon1 Ch10/day_mon1.c)
+add_executable(ch10_day_mon1 ${ch10_day_mon1})
+
+set(ch10_no_data Ch10/no_data.c)
+add_executable(ch10_no_data ${ch10_no_data})
+
+set(ch10_some_data Ch10/some_data.c)
+add_executable(ch10_some_data ${ch10_some_data})
+
+set(ch10_day_mon2 Ch10/day_mon2.c)
+add_executable(ch10_day_mon2 ${ch10_day_mon2})
+
+set(ch10_designate Ch10/designate.c)
+add_executable(ch10_designate ${ch10_designate})
+
+set(ch10_bounds Ch10/bounds.c)
+add_executable(ch10_bounds ${ch10_bounds})
+
+set(ch10_rain Ch10/rain.c)
+add_executable(ch10_rain ${ch10_rain})
+
+set(ch10_pnt_add Ch10/pnt_add.c)
+add_executable(ch10_pnt_add ${ch10_pnt_add})
+
+set(ch10_day_mon3 Ch10/day_mon3.c)
+add_executable(ch10_day_mon3 ${ch10_day_mon3})
+
+set(ch10_sum_arr1 Ch10/sum_arr1.c)
+add_executable(ch10_sum_arr1 ${ch10_sum_arr1})
+
+set(ch10_sum_arr2 Ch10/sum_arr2.c)
+add_executable(ch10_sum_arr2 ${ch10_sum_arr2})
+
+set(ch10_order Ch10/order.c)
+add_executable(ch10_order ${ch10_order})
+
+set(ch10_ptr_ops Ch10/ptr_ops.c)
+add_executable(ch10_ptr_ops ${ch10_ptr_ops})
+
+set(ch10_arf Ch10/arf.c)
+add_executable(ch10_arf ${ch10_arf})
+
+set(ch10_zippo1 Ch10/zippo1.c)
+add_executable(ch10_zippo1 ${ch10_zippo1})
+
+set(ch10_zippo2 Ch10/zippo2.c)
+add_executable(ch10_zippo2 ${ch10_zippo2})
+
+set(ch10_array2d Ch10/array2d.c)
+add_executable(ch10_array2d ${ch10_array2d})
+
+set(ch10_vararr2d Ch10/vararr2d.c)
+add_executable(ch10_vararr2d ${ch10_vararr2d})
+
+set(ch10_flc Ch10/flc.c)
+add_executable(ch10_flc ${ch10_flc})]]
+
+#-----------------------------
+#           ch011
+#-----------------------------
+#[[
+set(ch11_strings1 Ch11/strings1.c)
+add_executable(ch11_strings1 ${ch11_strings1})
+
+set(ch11_strptr Ch11/strptr.c)
+add_executable(ch11_strptr ${ch11_strptr})
+
+set(ch11_addresses Ch11/addresses.c)
+add_executable(ch11_addresses ${ch11_addresses})
+
+set(ch11_arrchar Ch11/arrchar.c)
+add_executable(ch11_arrchar ${ch11_arrchar})
+
+set(ch11_p_and_s Ch11/p_and_s.c)
+add_executable(ch11_p_and_s ${ch11_p_and_s})
+
+set(ch11_getsputs Ch11/getsputs.c)
+add_executable(ch11_getsputs ${ch11_getsputs})
+
+set(ch11_fgets1 Ch11/fgets1.c)
+add_executable(ch11_fgets1 ${ch11_fgets1})
+
+set(ch11_fgets2 Ch11/fgets2.c)
+add_executable(ch11_fgets2 ${ch11_fgets2})
+
+set(ch11_fgets3 Ch11/fgets3.c)
+add_executable(ch11_fgets3 ${ch11_fgets3})
+
+set(ch11_scan_str Ch11/scan_str.c)
+add_executable(ch11_scan_str ${ch11_scan_str})
+
+set(ch11_put_out Ch11/put_out.c)
+add_executable(ch11_put_out ${ch11_put_out})
+
+set(ch11_nono Ch11/nono.c)
+add_executable(ch11_nono ${ch11_nono})
+
+set(ch11_put_put Ch11/put_put.c)
+add_executable(ch11_put_put ${ch11_put_put})
+
+set(ch11_test_fit Ch11/test_fit.c)
+add_executable(ch11_test_fit ${ch11_test_fit})
+
+set(ch11_str_cat Ch11/str_cat.c)
+add_executable(ch11_str_cat ${ch11_str_cat})
+
+set(ch11_join_chk Ch11/join_chk.c)
+add_executable(ch11_join_chk ${ch11_join_chk})
+
+set(ch11_nogo Ch11/nogo.c)
+add_executable(ch11_nogo ${ch11_nogo})
+
+set(ch11_compare Ch11/compare.c)
+add_executable(ch11_compare ${ch11_compare})
+
+set(ch11_compback Ch11/compback.c)
+add_executable(ch11_compback ${ch11_compback})
+
+set(ch11_quit_chk Ch11/quit_chk.c)
+add_executable(ch11_quit_chk ${ch11_quit_chk})
+
+set(ch11_starsrch Ch11/starsrch.c)
+add_executable(ch11_starsrch ${ch11_starsrch})
+
+set(ch11_copy1 Ch11/copy1.c)
+add_executable(ch11_copy1 ${ch11_copy1})
+
+set(ch11_copy2 Ch11/copy2.c)
+add_executable(ch11_copy2 ${ch11_copy2})
+
+set(ch11_copy3 Ch11/copy3.c)
+add_executable(ch11_copy3 ${ch11_copy3})
+
+set(ch11_format Ch11/format.c)
+add_executable(ch11_format ${ch11_format})
+
+set(ch11_sort_str Ch11/sort_str.c)
+add_executable(ch11_sort_str ${ch11_sort_str})
+
+set(ch11_mod_str Ch11/mod_str.c)
+add_executable(ch11_mod_str ${ch11_mod_str})
+
+set(ch11_repeat Ch11/repeat.c)
+add_executable(ch11_repeat ${ch11_repeat})
+
+set(ch11_strcnvt Ch11/strcnvt.c)
+add_executable(ch11_strcnvt ${ch11_strcnvt})]]
+
+#-----------------------------
+#           ch012
+#-----------------------------
+#[[
+set(ch12_hiding Ch12/hiding.c)
+add_executable(ch12_hiding ${ch12_hiding})
+
+set(ch12_for99 Ch12/forc99.c)
+add_executable(ch12_for99 ${ch12_for99})
+
+set(ch12_loc_stat Ch12/loc_stat.c)
+add_executable(ch12_loc_stat ${ch12_loc_stat})
+
+set(ch12_global Ch12/global.c)
+add_executable(ch12_global ${ch12_global})
+
+set(ch12_parta Ch12/parta.c Ch12/partb.c)
+add_executable(ch12_parta ${ch12_parta})
+
+set(ch12_rand0 Ch12/rand0.c Ch12/r_drive0.c)
+add_executable(ch12_rand0 ${ch12_rand0})
+
+set(ch12_r_drive1 Ch12/s_and_r.c Ch12/r_drive1.c)
+add_executable(ch12_r_drive1 ${ch12_r_drive1})
+
+set(ch12_diceroll Ch12/manydice.c Ch12/diceroll.c)
+add_executable(ch12_diceroll ${ch12_diceroll})
+
+set(ch12_dyn_arr Ch12/dyn_arr.c)
+add_executable(ch12_dyn_arr ${ch12_dyn_arr})
+
+set(ch12_where Ch12/where.c)
+add_executable(ch12_where ${ch12_where})]]
+
+#-----------------------------
+#           ch013
+#-----------------------------
+
+set(ch13_count Ch13/count.c)
+add_executable(ch13_count ${ch13_count})
+
+set(ch13_reducto Ch13/reducto.c)
+add_executable(ch13_reducto ${ch13_reducto})
+
+set(ch13_addaword Ch13/addaword.c)
+add_executable(ch13_addaword ${ch13_addaword})
+
+set(ch13_reverse Ch13/reverse.c)
+add_executable(ch13_reverse ${ch13_reverse})

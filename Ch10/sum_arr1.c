@@ -16,7 +16,7 @@ int main(void)
     return 0;
 }
 
-int sum(int ar[], int n)     // how big an array?
+int sum(int *ar, int n)     // how big an array?
 {
     int i;
     int total = 0;

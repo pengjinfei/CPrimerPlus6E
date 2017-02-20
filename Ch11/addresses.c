@@ -1,5 +1,5 @@
 //  addresses.c  -- addresses of strings
-#define MSG "I'm special."
+#define MSG "I'm special"
 
 #include <stdio.h>
 int main()
